@@ -201,6 +201,12 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# Ignore the content in the lectures folder
+lectures/*
+
+# But keep the folder
+!lectures/.gitkeep
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
